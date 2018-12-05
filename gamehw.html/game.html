@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rock, Paper, Scissors!</title>
+</head>
+
+<body>
+
+    <h1>Let's Play!</h1>
+    <h2>Type "r" for, "p" for paper, or "s" scissors.</h2>
+    <p>user:</p>
+    <p>computer:</p>
+
+    <div id="gameOptions">
+        <button onclick="gameOptions()">reset</button>
+        display("myForm").reset();
+        $(".letter-button").on("click", function()
+
+
+        <p id="rock"></p>
+        <p id="paper"></p>
+        <p id="scissors"></p>
+
+        <div>Wins:</div>
+        <div id="rock"></div><br>
+        <div>Losses:</div>
+        <div id="paper"></div><br>
+        <div>Draws:</div>
+        <div id="scissors"></div>
+    </div>
+
+    <script>
+        let gameOptions = [rock, paper, scissors];
+
+        let computerChoice1 = Math.random(); {
+            computerChoice1 = "rock";
+        } else if (computerChoice1 <= rock) {
+            computerChoice1 = "paper";
+        }
+        else {
+            computerChoice2 = "scissors";
+        }
+        let compare = function (rock, rock) {
+            if (rock === rock) {
+                return "The result is a tie!";
+            }
+            if (choice1 === "rock") {
+                if (choice2 === "scissors") {
+                    return "rock wins";
+                }
+                else {
+                    return "paper wins";
+                }
+            }
+            if (choice1 === "paper") {
+                if (choice2 === "rock") {
+                    return "paper wins";
+                }
+                else {
+                    return "scissors wins";
+                }
+            }
+            if (choice1 === "scissors") {
+                if (choice2 === "rock") {
+                    return "rock wins";
+                }
+                else {
+                    return "scissors wins";
+                }
+            }
+            compare(userChoice, computerChoice);
+        };
+
+    </script>
+
+</body>
+
+</html>

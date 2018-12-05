@@ -1,0 +1,94 @@
+
+/* this is something that we're probably gonna remove before we're done: */
+* {
+    /* border: 1px solid black; */
+}
+
+body {
+    background-color: grey;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#header {
+    background-color: lightgrey;
+    text-align: center;
+    display: block;
+    width: 99%;
+    height: 50px;
+}
+
+h2 {
+    background-color: lightgrey;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    width: 99%;
+    height: 50px;
+}
+
+section {
+    background-color: lightgrey;
+    float: left;
+    left: -10px;
+    margin: 10px;
+    width: 50%;
+    height: 250px;
+    position: relative;
+    display: inline;
+}
+
+.article {
+    background-color: darkgrey;
+    position: absolute;
+    width: 80%;
+    height: 100px;
+    padding: 30px;
+    margin: 20px;
+    top: 50px;
+}
+
+.h1 {
+    padding: 30px;
+    background-color: lightgrey;
+    position: absolute;
+    width: 70%;
+    height: 0px;
+    margin: 10px;
+    left: 30px;
+    bottom: 100px;
+}
+
+.p {
+    padding: 30px;
+    background-color: lightgrey;
+    position: absolute;
+    width: 70%;
+    height: 0px;
+    margin: 10px;
+    left: 30px;
+    bottom: 30px;
+}
+
+aside {
+    background-color: lightgray;
+    float: right;
+    margin: 10px;
+    padding: 50px;
+    width: 35%;
+    height: 150px;
+    margin-left: 0px;
+    font-size: 20px;
+}
+
+footer {
+    font-size: 40px;
+    text-align: center;
+    background-color: lightgrey;
+    display: block;
+    padding: 10px;
+    width: 81%;
+    height: 50px;
+    position: fixed;
+    bottom: 150px;
+}
